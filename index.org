@@ -8,7 +8,7 @@
 :PUBDATE:  <2022-07-05 ti 09:14>
 :END:
 
-* Connecting the resulting blog to [[https://micro.blog/][micro.blog]] requires just the url kinnala.github.io/blog/index.rss.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside /<h1>/ tags.   Perhaps it requires tinkering at some point.
+* Connecting the resulting blog to [[https://micro.blog/][micro.blog]] requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside /<h1>/ tags.   Perhaps it requires tinkering at some point.
 :PROPERTIES:
 :ID:       4407ed0a-7bfc-4408-b751-19710f34d1d8
 :PUBDATE:  <2022-07-05 ti 10:22>
