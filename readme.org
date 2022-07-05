@@ -1,7 +1,7 @@
-#+TITLE: Technical remarks
+#+TITLE: Blog
 #+AUTHOR: Tom Gustafsson
 #+OPTIONS: toc:nil num:nil
-#+RSS_FEED_URL: https://kinnala.github.io/blog/index.xml
+#+RSS_FEED_URL: https://kinnala.github.io/blog/readme.xml
 
 * 
 :PROPERTIES:
@@ -9,10 +9,8 @@
 :PUBDATE:  <2022-07-05 ti 10:37>
 :RSS_PERMALINK: hyperlinks
 :END:
-✏️ I noticed the org hyperlinks in the entries are only visible as plaintext
-urls (if using content in title).  So put org-mode section titles empty and
-write the content inside the section. Also there was some issue of duplicate
-entries appearing and I had to set =:RSS_PERMALINK:= property to unique value.
+✏️ There was an issue of duplicate entries appearing.  I had to set
+=:RSS_PERMALINK:= property to unique value for each post.
 
 * 
 :PROPERTIES:
@@ -21,8 +19,7 @@ entries appearing and I had to set =:RSS_PERMALINK:= property to unique value.
 :RSS_PERMALINK: microblog-connect
 :END:
 ✏️ Connecting the resulting blog to [[https://micro.blog][micro.blog]] requires just the url
-[[https://kinnala.github.io/blog/index.xml]].  However, I noticed org-mode titles are
-interpreted as the actual entries if they are nonempty.
+[[https://kinnala.github.io/blog/readme.xml]].
 
 * 
 :PROPERTIES:

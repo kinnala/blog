@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Technical remarks</title>
-  <atom:link href="https://kinnala.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+  <title>Blog</title>
+  <atom:link href="https://kinnala.github.io/blog/readme.xml" rel="self" type="application/rss+xml" />
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 21:17:29 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 21:17:29 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 22:58:10 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 22:58:10 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
-    <title>Technical remarks</title>
+    <title>Blog</title>
     <link></link>
   </image>
 
@@ -33,10 +33,8 @@
     <pubDate>Tue, 05 Jul 2022 10:37:00 +0300</pubDate>
 
     <description><![CDATA[<p>
-    ✏️ I noticed the org hyperlinks in the entries are only visible as plaintext
-    urls (if using content in title).  So put org-mode section titles empty and
-    write the content inside the section. Also there was some issue of duplicate
-    entries appearing and I had to set <code>:RSS_PERMALINK:</code> property to unique value.
+    ✏️ There was an issue of duplicate entries appearing.  I had to set
+    <code>:RSS_PERMALINK:</code> property to unique value for each post.
     </p>
     ]]></description>
   </item>
@@ -50,8 +48,7 @@
 
     <description><![CDATA[<p>
     ✏️ Connecting the resulting blog to <a href="https://micro.blog">micro.blog</a> requires just the url
-    <a href="https://kinnala.github.io/blog/index.xml">https://kinnala.github.io/blog/index.xml</a>.  However, I noticed org-mode titles are
-    interpreted as the actual entries if they are nonempty.
+    <a href="https://kinnala.github.io/blog/readme.xml">https://kinnala.github.io/blog/readme.xml</a>.
     </p>
     ]]></description>
   </item>
