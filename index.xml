@@ -14,8 +14,8 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 16:00:09 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 16:00:09 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 16:07:46 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 16:07:46 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
@@ -36,7 +36,7 @@
   </item>
 
   <item>
-    <title>✏️ Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode section names are interpreted as the actual entries.</title>
+    <title>✏️ Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries.</title>
     <link>./microblog-connect</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
     <guid isPermaLink="false">./microblog-connect</guid>
