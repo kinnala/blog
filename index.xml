@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Some things technical</title>
+  <title>Technical remarks</title>
   <atom:link href="https://kinnala.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 21:07:39 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 21:07:39 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 21:17:29 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 21:17:29 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
-    <title>Some things technical</title>
+    <title>Technical remarks</title>
     <link></link>
   </image>
 
@@ -36,7 +36,7 @@
     ✏️ I noticed the org hyperlinks in the entries are only visible as plaintext
     urls (if using content in title).  So put org-mode section titles empty and
     write the content inside the section. Also there was some issue of duplicate
-    entries appearing and I had to set :RSS<sub>PERMALINK</sub>: property to unique value.
+    entries appearing and I had to set <code>:RSS_PERMALINK:</code> property to unique value.
     </p>
     ]]></description>
   </item>
@@ -50,7 +50,7 @@
 
     <description><![CDATA[<p>
     ✏️ Connecting the resulting blog to <a href="https://micro.blog">micro.blog</a> requires just the url
-    kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are
+    <a href="https://kinnala.github.io/blog/index.xml">https://kinnala.github.io/blog/index.xml</a>.  However, I noticed org-mode titles are
     interpreted as the actual entries if they are nonempty.
     </p>
     ]]></description>
@@ -65,8 +65,8 @@
 
     <description><![CDATA[<p>
     ✏️ I wanted to blog from org-mode to <a href="https://micro.blog/">micro.blog</a>.  First I created <a href="https://github.com/kinnala/blog">kinnala/blog</a>
-    repository. Then I installed <a href="https://github.com/emacsmirror/ox-rss">ox-rss</a>. Finally I wrote this entry in index.org,
-    called org-rss-export-to-rss and committed the resulting files.
+    repository. Then I installed <a href="https://github.com/emacsmirror/ox-rss">ox-rss</a>. Finally I wrote this entry in <i>index.org</i>,
+    called <code>org-rss-export-to-rss</code> and committed the resulting files.
     </p>
     ]]></description>
   </item>

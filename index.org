@@ -1,6 +1,6 @@
-#+TITLE: Some things technical
+#+TITLE: Technical remarks
 #+AUTHOR: Tom Gustafsson
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil num:nil
 #+RSS_FEED_URL: https://kinnala.github.io/blog/index.xml
 
 * 
@@ -12,7 +12,7 @@
 ✏️ I noticed the org hyperlinks in the entries are only visible as plaintext
 urls (if using content in title).  So put org-mode section titles empty and
 write the content inside the section. Also there was some issue of duplicate
-entries appearing and I had to set :RSS_PERMALINK: property to unique value.
+entries appearing and I had to set =:RSS_PERMALINK:= property to unique value.
 
 * 
 :PROPERTIES:
@@ -21,7 +21,7 @@ entries appearing and I had to set :RSS_PERMALINK: property to unique value.
 :RSS_PERMALINK: microblog-connect
 :END:
 ✏️ Connecting the resulting blog to [[https://micro.blog][micro.blog]] requires just the url
-kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are
+[[https://kinnala.github.io/blog/index.xml]].  However, I noticed org-mode titles are
 interpreted as the actual entries if they are nonempty.
 
 * 
@@ -31,5 +31,5 @@ interpreted as the actual entries if they are nonempty.
 :RSS_PERMALINK: initial
 :END:
 ✏️ I wanted to blog from org-mode to [[https://micro.blog/][micro.blog]].  First I created [[https://github.com/kinnala/blog][kinnala/blog]]
-repository. Then I installed [[https://github.com/emacsmirror/ox-rss][ox-rss]]. Finally I wrote this entry in index.org,
-called org-rss-export-to-rss and committed the resulting files.
+repository. Then I installed [[https://github.com/emacsmirror/ox-rss][ox-rss]]. Finally I wrote this entry in /index.org/,
+called =org-rss-export-to-rss= and committed the resulting files.
