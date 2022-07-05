@@ -10,12 +10,12 @@
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Some things technical</title>
-  <atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://kinnala.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 11:00:44 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 11:00:44 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 15:53:52 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 15:53:52 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
@@ -26,10 +26,20 @@
 
 
   <item>
-    <title>Perhaps the issue of double posting is solved by not modifying the older entries ✏️.  I decided to put the newest entries on top.  I guess I don't really even need the html export and can just refer readers to https://micro.blog/kinnala.</title>
-    <link>./index.html#orge36f565</link>
+    <title>It was possible to set :RSS_PERMALINK: property to a fixed value for each heading after which the links are not random generated when calling ox-rss.</title>
+    <link>./doubleposting-2</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#orge36f565</guid>
+    <guid isPermaLink="false">./doubleposting-2</guid>
+    <pubDate>Tue, 05 Jul 2022 15:53:00 +0300</pubDate>
+
+    <description><![CDATA[]]></description>
+  </item>
+
+  <item>
+    <title>Perhaps the issue of double posting is solved by not modifying the older entries ✏️.  I decided to put the newest entries on top.  I guess I don't really even need the html export and can just refer readers to https://micro.blog/kinnala.</title>
+    <link>./doubleposting-1</link>
+    <author>tom@tunkki (Tom Gustafsson)</author>
+    <guid isPermaLink="false">./doubleposting-1</guid>
     <pubDate>Tue, 05 Jul 2022 10:57:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
@@ -37,19 +47,24 @@
 
   <item>
     <title>I noticed the hyperlinks in the entries ✏️ are visible as plaintext urls.  Also there was some issue of duplicate entries appearing in Timeline after fixing a typo.</title>
-    <link>./index.html#org3ff33a3</link>
+    <link>./index.html#org9d584fa</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org3ff33a3</guid>
-    <pubDate>Tue, 05 Jul 2022 10:37:00 +0300</pubDate>
+    <guid isPermaLink="false">./index.html#org9d584fa</guid>
+    <pubDate>Tue, 05 Jul 2022 15:51:00 +0300</pubDate>
 
-    <description><![CDATA[]]></description>
+    <description><![CDATA[<p>
+    :ID:       e5c8d5bd-a6f9-4851-99e0-a28cd749cfc4
+    :PUBDATE:  
+    :RSS<sub>PERMALINK</sub>: hyperlinks
+    </p>
+    ]]></description>
   </item>
 
   <item>
     <title>Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside h1 tags.   Perhaps the html export requires tinkering at some point.</title>
-    <link>./index.html#org032bf48</link>
+    <link>./microblog-connect</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org032bf48</guid>
+    <guid isPermaLink="false">./microblog-connect</guid>
     <pubDate>Tue, 05 Jul 2022 10:22:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
@@ -57,9 +72,9 @@
 
   <item>
     <title>I wanted to blog with Emacs to https://micro.blog/.  First I created https://github.com/kinnala/blog with index.org and enabled Pages from its settings. Then I installed https://github.com/emacsmirror/ox-rss. Finally I wrote ✏️ this entry in index.org, ran org-rss-export-to-rss and org-html-export-to-html, and committed the resulting files.</title>
-    <link>./index.html#org20442fb</link>
+    <link>./initial</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org20442fb</guid>
+    <guid isPermaLink="false">./initial</guid>
     <pubDate>Tue, 05 Jul 2022 09:14:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
