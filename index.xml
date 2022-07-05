@@ -14,8 +14,8 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 10:57:32 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 10:57:32 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 11:00:44 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 11:00:44 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
@@ -27,9 +27,9 @@
 
   <item>
     <title>Perhaps the issue of double posting is solved by not modifying the older entries ✏️.  I decided to put the newest entries on top.  I guess I don't really even need the html export and can just refer readers to https://micro.blog/kinnala.</title>
-    <link>./index.html#org326c4f1</link>
+    <link>./index.html#orge36f565</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org326c4f1</guid>
+    <guid isPermaLink="false">./index.html#orge36f565</guid>
     <pubDate>Tue, 05 Jul 2022 10:57:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
@@ -37,9 +37,9 @@
 
   <item>
     <title>I noticed the hyperlinks in the entries ✏️ are visible as plaintext urls.  Also there was some issue of duplicate entries appearing in Timeline after fixing a typo.</title>
-    <link>./index.html#org796bb25</link>
+    <link>./index.html#org3ff33a3</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org796bb25</guid>
+    <guid isPermaLink="false">./index.html#org3ff33a3</guid>
     <pubDate>Tue, 05 Jul 2022 10:37:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
@@ -47,9 +47,9 @@
 
   <item>
     <title>Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside h1 tags.   Perhaps the html export requires tinkering at some point.</title>
-    <link>./index.html#org9c51848</link>
+    <link>./index.html#org032bf48</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org9c51848</guid>
+    <guid isPermaLink="false">./index.html#org032bf48</guid>
     <pubDate>Tue, 05 Jul 2022 10:22:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
@@ -57,9 +57,9 @@
 
   <item>
     <title>I wanted to blog with Emacs to https://micro.blog/.  First I created https://github.com/kinnala/blog with index.org and enabled Pages from its settings. Then I installed https://github.com/emacsmirror/ox-rss. Finally I wrote ✏️ this entry in index.org, ran org-rss-export-to-rss and org-html-export-to-html, and committed the resulting files.</title>
-    <link>./index.html#orga90c4f1</link>
+    <link>./index.html#org20442fb</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#orga90c4f1</guid>
+    <guid isPermaLink="false">./index.html#org20442fb</guid>
     <pubDate>Tue, 05 Jul 2022 09:14:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
