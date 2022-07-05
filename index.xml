@@ -14,8 +14,8 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 10:24:25 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 10:24:25 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 10:37:26 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 10:37:26 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
@@ -26,21 +26,31 @@
 
 
   <item>
-    <title>I wanted to blog with Emacs to https://micro.blog/.  First I created https://github.com/kinnala/blog repo with /index.org/ and enabled https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site from its settings. Then I installed https://github.com/emacsmirror/ox-rss from Emacsmirror. Finally I wrote ✏️ this entry in /index.org/, ran /org-rss-export-to-rss/ and /org-html-export-to-html/, and committed the resulting files.</title>
-    <link>./index.html#org629b498</link>
+    <title>I wanted to blog with Emacs to https://micro.blog/.  First I created https://github.com/kinnala/blog with index.org and enabled Pages from its settings. Then I installed https://github.com/emacsmirror/ox-rss. Finally I wrote ✏️ this entry in index.org, ran org-rss-export-to-rss and org-html-export-to-html, and committed the resulting files.</title>
+    <link>./index.html#org095b6cf</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org629b498</guid>
+    <guid isPermaLink="false">./index.html#org095b6cf</guid>
     <pubDate>Tue, 05 Jul 2022 09:14:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
   </item>
 
   <item>
-    <title>Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside /&lt;h1&gt;/ tags.   Perhaps it requires tinkering at some point.</title>
-    <link>./index.html#orgfc07347</link>
+    <title>Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside h1 tags.   Perhaps the html export requires tinkering at some point.</title>
+    <link>./index.html#orgd7d392f</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#orgfc07347</guid>
+    <guid isPermaLink="false">./index.html#orgd7d392f</guid>
     <pubDate>Tue, 05 Jul 2022 10:22:00 +0300</pubDate>
+
+    <description><![CDATA[]]></description>
+  </item>
+
+  <item>
+    <title>I noticed the hyperlinks in the entries ✏️ are visible as plaintext urls.  Also there was some issue of duplicate entries appearing in Timeline after fixing a typo.</title>
+    <link>./index.html#orgcb81e42</link>
+    <author>tom@tunkki (Tom Gustafsson)</author>
+    <guid isPermaLink="false">./index.html#orgcb81e42</guid>
+    <pubDate>Tue, 05 Jul 2022 10:37:00 +0300</pubDate>
 
     <description><![CDATA[]]></description>
   </item>
