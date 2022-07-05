@@ -2,15 +2,15 @@
 #+AUTHOR: Tom Gustafsson
 #+OPTIONS: toc:nil
 
-* Blog with Emacs and GitHub
+* I wanted to blog with Emacs to [[https://micro.blog/][micro.blog]].  First I created [[https://github.com/kinnala/blog][kinnala/blog]] repo with /index.org/ and enabled [[https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site][Pages]] from its settings. Then I installed [[https://github.com/emacsmirror/ox-rss][ox-rss]] from Emacsmirror. Finally I wrote ✏️ this entry in /index.org/, ran /org-rss-export-to-rss/ and /org-html-export-to-html/, and committed the resulting files.
 :PROPERTIES:
 :ID:       1a9ba8d0-6e9d-4f10-8cb8-7483972fb93a
 :PUBDATE:  <2022-07-05 ti 09:14>
 :END:
 
-First I created a new GitHub repository [[https://github.com/kinnala/blog][kinnala/blog]] with /index.org/ file.
-Then I installed [[https://github.com/emacsmirror/ox-rss][ox-rss]] from Emacsmirror.
-Finally I wrote ✏️ this entry in /index.org/,
-ran the commands /org-rss-export-to-rss/ and /org-rss-export-to-html/,
-and committed the resulting files /index.xml/ and /index.html/.
+* Connecting the resulting blog to [[https://micro.blog/][micro.blog]] requires just the url kinnala.github.io/blog/index.rss.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside /<h1>/ tags.   Perhaps it requires tinkering at some point.
+:PROPERTIES:
+:ID:       4407ed0a-7bfc-4408-b751-19710f34d1d8
+:PUBDATE:  <2022-07-05 ti 10:22>
+:END:
 

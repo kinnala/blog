@@ -14,8 +14,8 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 09:22:43 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 09:22:43 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 10:22:45 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 10:22:45 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
@@ -26,20 +26,23 @@
 
 
   <item>
-    <title>Blog with Emacs and GitHub</title>
-    <link>./index.html#org53238a8</link>
+    <title>I wanted to blog with Emacs to https://micro.blog/.  First I created https://github.com/kinnala/blog repo with /index.org/ and enabled https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site from its settings. Then I installed https://github.com/emacsmirror/ox-rss from Emacsmirror. Finally I wrote ✏️ this entry in /index.org/, ran /org-rss-export-to-rss/ and /org-html-export-to-html/, and committed the resulting files.</title>
+    <link>./index.html#org411ff29</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
-    <guid isPermaLink="false">./index.html#org53238a8</guid>
+    <guid isPermaLink="false">./index.html#org411ff29</guid>
     <pubDate>Tue, 05 Jul 2022 09:14:00 +0300</pubDate>
 
-    <description><![CDATA[<p>
-    First I created a new GitHub repository <a href="https://github.com/kinnala/blog">kinnala/blog</a> with <i>index.org</i> file.
-    Then I installed <a href="https://github.com/emacsmirror/ox-rss">ox-rss</a> from Emacsmirror.
-    Finally I wrote ✏️ this entry in <i>index.org</i>,
-    ran the commands <i>org-rss-export-to-rss</i> and <i>org-rss-export-to-html</i>,
-    and committed the resulting files <i>index.xml</i> and <i>index.html</i>.
-    </p>
-    ]]></description>
+    <description><![CDATA[]]></description>
+  </item>
+
+  <item>
+    <title>Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.rss.  However, I noticed org-mode titles are interpreted as the actual entries ✏️.  This means the html export puts everything inside /&lt;h1&gt;/ tags.   Perhaps it requires tinkering at some point.</title>
+    <link>./index.html#org95133b4</link>
+    <author>tom@tunkki (Tom Gustafsson)</author>
+    <guid isPermaLink="false">./index.html#org95133b4</guid>
+    <pubDate>Tue, 05 Jul 2022 10:22:00 +0300</pubDate>
+
+    <description><![CDATA[]]></description>
   </item>
 </channel>
 </rss>
