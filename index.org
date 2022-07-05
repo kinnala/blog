@@ -1,0 +1,16 @@
+#+TITLE: Some things technical
+#+AUTHOR: Tom Gustafsson
+#+OPTIONS: toc:nil
+
+* Blog with Emacs and GitHub
+:PROPERTIES:
+:ID:       1a9ba8d0-6e9d-4f10-8cb8-7483972fb93a
+:PUBDATE:  <2022-07-05 ti 09:14>
+:END:
+
+First I created a new GitHub repository [[https://github.com/kinnala/blog][kinnala/blog]] with /index.org/ file.
+Then I installed [[https://github.com/emacsmirror/ox-rss][ox-rss]] from Emacsmirror.
+Finally I wrote ✏️ this entry in /index.org/,
+ran the commands /org-rss-export-to-rss/ and /org-rss-export-to-html/,
+and committed the resulting files /index.xml/ and /index.html/.
+

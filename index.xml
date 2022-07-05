@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Some things technical</title>
+  <atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+  <link></link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Tue, 05 Jul 2022 09:22:43 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 09:22:43 +0300</lastBuildDate>
+  <generator>Emacs 28.1 Org-mode 9.4.6</generator>
+  <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
+  <image>
+    <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Some things technical</title>
+    <link></link>
+  </image>
+
+
+  <item>
+    <title>Blog with Emacs and GitHub</title>
+    <link>./index.html#org53238a8</link>
+    <author>tom@tunkki (Tom Gustafsson)</author>
+    <guid isPermaLink="false">./index.html#org53238a8</guid>
+    <pubDate>Tue, 05 Jul 2022 09:14:00 +0300</pubDate>
+
+    <description><![CDATA[<p>
+    First I created a new GitHub repository <a href="https://github.com/kinnala/blog">kinnala/blog</a> with <i>index.org</i> file.
+    Then I installed <a href="https://github.com/emacsmirror/ox-rss">ox-rss</a> from Emacsmirror.
+    Finally I wrote ✏️ this entry in <i>index.org</i>,
+    ran the commands <i>org-rss-export-to-rss</i> and <i>org-rss-export-to-html</i>,
+    and committed the resulting files <i>index.xml</i> and <i>index.html</i>.
+    </p>
+    ]]></description>
+  </item>
+</channel>
+</rss>
