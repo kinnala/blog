@@ -14,8 +14,8 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Jul 2022 16:07:46 +0300</pubDate>
-  <lastBuildDate>Tue, 05 Jul 2022 16:07:46 +0300</lastBuildDate>
+  <pubDate>Tue, 05 Jul 2022 16:37:23 +0300</pubDate>
+  <lastBuildDate>Tue, 05 Jul 2022 16:37:23 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
@@ -26,7 +26,7 @@
 
 
   <item>
-    <title>✏️ I noticed the hyperlinks in the entries are only visible as plaintext urls.  Also there was some issue of duplicate entries appearing and I had to set :RSS_PERMALINK: property to unique value.</title>
+    <title>✏️ I noticed the org hyperlinks in the entries are only visible as plaintext urls (use Markdown instead).  Also there was some issue of duplicate entries appearing and I had to set :RSS_PERMALINK: property to unique value.</title>
     <link>./hyperlinks</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
     <guid isPermaLink="false">./hyperlinks</guid>
@@ -36,7 +36,7 @@
   </item>
 
   <item>
-    <title>✏️ Connecting the resulting blog to https://micro.blog/ requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries.</title>
+    <title>✏️ Connecting the resulting blog to [micro.blog](https://micro.blog/) requires just the url kinnala.github.io/blog/index.xml.  However, I noticed org-mode titles are interpreted as the actual entries.</title>
     <link>./microblog-connect</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
     <guid isPermaLink="false">./microblog-connect</guid>
@@ -46,7 +46,7 @@
   </item>
 
   <item>
-    <title>✏️ I wanted to blog from org-mode to https://micro.blog/.  First I created https://github.com/kinnala/blog repository. Then I installed https://github.com/emacsmirror/ox-rss. Finally I wrote this entry in index.org, called org-rss-export-to-rss and committed the resulting files.</title>
+    <title>✏️ I wanted to blog from org-mode to [micro.blog](https://micro.blog/).  First I created (kinnala/blog)[https://github.com/kinnala/blog] repository. Then I installed [ox-rss](https://github.com/emacsmirror/ox-rss). Finally I wrote this entry in index.org, called org-rss-export-to-rss and committed the resulting files.</title>
     <link>./initial</link>
     <author>tom@tunkki (Tom Gustafsson)</author>
     <guid isPermaLink="false">./initial</guid>
