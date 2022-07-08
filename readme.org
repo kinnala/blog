@@ -5,6 +5,17 @@
 
 * 
 :PROPERTIES:
+:ID:       44f8af52-c96a-4dab-9f65-cdd61e5be59e
+:PUBDATE:  <2022-07-08 pe 17:46>
+:RSS_PERMALINK: figure-eight
+:END:
+🏕 This is a double figure 8 knot.
+I use it every week in some way or another.
+
+[[https://kinnala.github.io/blog/img/figure8.jpg]]
+
+* 
+:PROPERTIES:
 :ID:       5bf8e121-2d38-4762-8bda-09ee0aaf1ef8
 :PUBDATE:  <2022-07-07 to 16:03>
 :RSS_PERMALINK: cutting

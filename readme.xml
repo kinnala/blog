@@ -14,8 +14,8 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 07 Jul 2022 16:05:52 +0300</pubDate>
-  <lastBuildDate>Thu, 07 Jul 2022 16:05:52 +0300</lastBuildDate>
+  <pubDate>Fri, 08 Jul 2022 18:11:52 +0300</pubDate>
+  <lastBuildDate>Fri, 08 Jul 2022 18:11:52 +0300</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.4.6</generator>
   <webMaster>tom@tunkki (Tom Gustafsson)</webMaster>
   <image>
@@ -24,6 +24,26 @@
     <link></link>
   </image>
 
+
+  <item>
+    <title></title>
+    <link>./figure-eight</link>
+    <author>tom@tunkki (Tom Gustafsson)</author>
+    <guid isPermaLink="false">./figure-eight</guid>
+    <pubDate>Fri, 08 Jul 2022 17:46:00 +0300</pubDate>
+
+    <description><![CDATA[<p>
+    🏕 This is a double figure 8 knot.
+    I use it every week in some way or another.
+    </p>
+
+
+    <div id="orgc5be1c2" class="figure">
+    <p><img src="https://kinnala.github.io/blog/img/figure8.jpg" alt="figure8.jpg" />
+    </p>
+    </div>
+    ]]></description>
+  </item>
 
   <item>
     <title></title>
@@ -39,7 +59,7 @@
     </p>
 
 
-    <div id="org06b9dfe" class="figure">
+    <div id="org2348322" class="figure">
     <p><img src="https://kinnala.github.io/blog/img/cutting.jpg" alt="cutting.jpg" />
     </p>
     </div>
